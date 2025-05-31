@@ -1,0 +1,10 @@
+n=int(input("enter the no."))#5
+i=1
+ans=1
+fsum=0
+while(i<=n):
+    ans=ans*i
+    fsum=fsum+ans
+    i+=1
+print(f"factorial ={ans}")
+print(f"fsum={fsum}")
