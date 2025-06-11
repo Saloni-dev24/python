@@ -11,3 +11,5 @@ n1=int(input("enter the no.1:"))
 n2=int(input("enter the no.2:"))
 four_factor(n1,n2)
     
+
+    

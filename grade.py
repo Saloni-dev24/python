@@ -18,7 +18,7 @@ c=float(input("Enter the chemistry marks\n"))
 m=float(input("Enter the maths marks\n"))
 
 total_marks=p+c+m
-per=total_marks/3u
+per=total_marks
 
 if(p<0 or c<0 or m<0 or p>100 or c>100 or m>100):
     print("Invalid marks")
