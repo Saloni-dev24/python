@@ -16,6 +16,21 @@
 a=input("enter a character to check=")
 s=a.lower()
 if(s=="a" or s=="e" or s=="i" or s=="o" or s=="u"):
-    print("vowel")
+    print("this is vowel")
 else:
-    print("consonet")
+    print(" this is consonet")
+
+n=int(input("enter the no."))   #to find armstong
+r=n
+a=n%10
+n=n//10
+b=n%10
+n=n//10
+s=(n**3)+(b**3)+(a**3)
+if r==s:
+     print("this no. is armstrong",s)
+else:
+     print("not armstrong",r)
+
+
+
